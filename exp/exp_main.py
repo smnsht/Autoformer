@@ -5,7 +5,7 @@ logging.basicConfig(format='%(asctime)s,%(msecs)03d %(levelname)-8s [%(filename)
 
 from data_provider.data_factory import data_provider
 from exp.exp_basic import Exp_Basic
-from models import Informer, Autoformer, Transformer, Reformer
+from models import Informer, Autoformer, Transformer
 from utils.tools import EarlyStopping, adjust_learning_rate, visual
 from utils.metrics import metric
 
@@ -31,8 +31,7 @@ class Exp_Main(Exp_Basic):
         model_dict = {
             'Autoformer': Autoformer,
             'Transformer': Transformer,
-            'Informer': Informer,
-            'Reformer': Reformer,
+            'Informer': Informer            
         }
         model = model_dict[self.args.model].Model(self.args).float()
 
@@ -224,7 +223,7 @@ class Exp_Main(Exp_Basic):
             os.makedirs(folder_path)
 
         mae, mse, rmse, mape, mspe = metric(preds, trues)
-        print('mse:{}, mae:{}'.format(mse, mae))
+        print('mse:{}, mae:{}, mape:{}'.format(mse, mae, mape))
         f = open("result.txt", 'a')
         f.write(setting + "  \n")
         f.write('mse:{}, mae:{}'.format(mse, mae))

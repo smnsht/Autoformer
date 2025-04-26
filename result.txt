@@ -1,0 +1,18 @@
+AFEKA_96_96_Autoformer_custom_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_fc3_ebtimeF_dtTrue_Exp_0  
+mse:nan, mae:nan
+
+AFEKA_96_96_Autoformer_custom_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_fc3_ebtimeF_dtTrue_Exp_0  
+mse:0.07719095796346664, mae:0.11176828294992447
+
+AFEKA_96_96_Autoformer_custom_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_fc3_ebtimeF_dtTrue_Exp_1  
+mse:0.07553412765264511, mae:0.1100250631570816
+
+AFEKA_96_96_Autoformer_custom_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_fc3_ebtimeF_dtTrue_Exp_0  
+mse:0.07858873903751373, mae:0.11416786909103394
+
+AFEKA_96_96_Autoformer_custom_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_fc3_ebtimeF_dtTrue_Exp_0  
+mse:0.08338893204927444, mae:0.11993487179279327
+
+AFEKA_96_96_Autoformer_custom_ftM_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_fc3_ebtimeF_dtTrue_Exp_0  
+mse:0.08338893204927444, mae:0.11993487179279327
+
